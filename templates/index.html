@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>It's Valentine Day?</title>
+        <style>
+            body {
+                background-color: #EEE4DA;
+            }
+
+            h1 {
+                font-size: 50px;
+                font-family: Verdana, sans-serif;   
+                text-align: center;
+                padding: 10%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            {% if valentine_day %}
+                <h1>Yes! Happy Valentine's Day</h1>
+            {% else %}
+                <h1>NO</h1>
+            {% endif %}
+        </div>
+    </body>
+</html>
